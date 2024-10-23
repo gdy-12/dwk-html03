@@ -1,0 +1,12 @@
+/* Add styles here */
+body{
+    background-image: url("image/download\ \(7\).jpg");
+    background-repeat:no-repeat;
+    margin:0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    padding: 0px;
+    background-color: white;
+    opacity: 60%;
+}
