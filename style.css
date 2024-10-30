@@ -1,12 +1,66 @@
 /* Add styles here */
 body{
-    background-image: url("image/download\ \(7\).jpg");
+    background-image:url("image/pngtree-forest-fog-realistic-background-picture-image_2253006.jpg");
     background-repeat:no-repeat;
     margin:0px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .navbar{
     padding: 0px;
-    background-color: white;
+    background-color: rgb(22, 21, 21);
     opacity: 60%;
+}
+.navbarmenu{
+    text-align: left;
+    padding: 5px;
+}
+.navbarmenulist{
+    list-style: none;
+}
+.navbarmenulist > li{
+    display: inline-block;
+    padding: 0px 5px;
+}
+.navbarmenulist > li > a{
+    text-decoration: none;
+    color: #fc0606;
+}
+.navbarmenulist > li > a:hover{
+    font-weight: bold;
+    background-color: #830a0a;
+}
+.navbarjudul{
+    text-decoration: solid;
+    color: rgb(250, 4, 4);
+    font-size : 3em;
+    top : 30px;
+    left :16px;
+    text-shadow: 6px 8px 10px;
+}
+#txhello{
+    font-size: 60px;
+    position: relative;
+    top : 30px;
+    left : 12%;
+    color: #f80707;
+    text-shadow: 6px 10px 12px; color:rgb(247, 2, 2);
+    padding : 6px 20px;
+}
+#btn1{
+    position: relative;
+    top: 300px;
+    left: 1%;
+    font-size: 15px;
+    padding: 10px 50px;
+    border-radius: 35px;
+    border-color: #ece8e8;
+    top: 250px;
+    text-shadow: 6px 8px 9px;
+    color:rgb(250, 247, 247);
+    background-color: #070707;
+}
+#btn1:hover{
+    color: rgb(247, 19, 19);
+    background-color: rgb(95, 4, 4);
+    border-color: #fc0606;
 }
